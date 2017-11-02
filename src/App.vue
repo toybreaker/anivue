@@ -1,7 +1,18 @@
 <template>
   <div id="app">
+
     <img class="astrochart" src="./assets/astro-circle.svg">
+
+    <div class="columns">
+      <div class="column is-4 is-offset-4">
+        <datepicker placeholder="Select your birth date.." :options="dateOptions" v-model="date1"></datepicker>
+      </div>
+
+      <div class="column is-4 is-offset-4">{{ date1 }}</div>
+    </div>
+
     <router-view></router-view>
+
   </div>
 </template>
 

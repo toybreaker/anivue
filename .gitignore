@@ -14,4 +14,4 @@ selenium-debug.log
 *.njsproj
 *.sln
 
-.workinprogress
+.workinprogress/
