@@ -9,3 +9,10 @@
     name: 'Chart'
   }
 </script>
+
+<style scoped>
+  .chart {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+</style>
