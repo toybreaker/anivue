@@ -6,25 +6,25 @@
 </template>
 
 <script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      msg: 'anivue yeah',
-      payoff: 'start learn it!'
+  export default {
+    name: 'Hello',
+    data () {
+      return {
+        msg: 'anivue yeah',
+        payoff: 'start learn it!'
+      }
     }
   }
-}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-  color: red;
-}
+  h1, h2 {
+    font-weight: normal;
+    color: red;
+  }
 
-a {
-  color: #42b983;
-}
+  a {
+    color: #42b983;
+  }
 </style>
