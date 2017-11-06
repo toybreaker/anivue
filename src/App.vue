@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    
-    <hello></hello>
-    <tes></tes>
+
     <router-view></router-view>
+    <years></years>
+    <chart></chart>
 
   </div>
 </template>
 
 <script>
-  import Hello from './components/Hello'
-  import Tes from './components/Tes'
+  import Chart from '@/components/Chart'
+  import Years from '@/components/Years'
 
   export default {
     name: 'app',
     components: {
-      Hello,
-      Tes
+      Chart,
+      Years
     }
   }
 </script>
