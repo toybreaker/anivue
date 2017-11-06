@@ -1,0 +1,30 @@
+personas: [{
+  year: 1940,
+  animal: 'dragon',
+  start_date: 'feb 08 1940',
+  end_date: 'jan 26 1941',
+  yinyang: 'yang',
+  element: 'metal',
+  heavenly_stem: '庚',
+  earthly_branch: '辰'
+},
+{
+  year: 1941,
+  animal: 'snake',
+  start_date: 'jan 27 1941',
+  end_date: 'feb 14 1942',
+  yinyang: 'yin',
+  element: 'metal',
+  heavenly_stem: '辛',
+  earthly_branch: '巳'
+},
+{
+  year: 1942,
+  animal: 'horse',
+  start_date: 'feb 15 1942',
+  end_date: 'feb 04 1943',
+  yinyang: 'yin',
+  element: 'water',
+  heavenly_stem: '壬',
+  earthly_branch: '午'
+}]
