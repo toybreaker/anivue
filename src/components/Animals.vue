@@ -1,18 +1,19 @@
 <template>
-  <div class="years">
-    <div class="years_title">Year Cycles</div>
+  <div class="animals">
+    <div class="years_title">Year Animals</div>
+    <div class="years_list" id="years_list"></div>
   </div>
 </template>
 
 <script>
-  import lunaryear from '@/assets/json/years.json'
+  import ye from '@/assets/js/years.js'
   // ....
-  lunaryear.forEach(x => {
+  ye.forEach(x => {
     console.log(x.year, x.animal, x.element)
   })
 
   export default {
-    name: 'Years'
+    name: 'Animals'
   }
 </script>
 
