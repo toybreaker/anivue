@@ -1,8 +1,10 @@
 <template>
   <div id="app">
 
-    <hello></hello>
 
+
+    <hello></hello>
+    <tes></tes>
     <router-view></router-view>
 
   </div>
@@ -10,11 +12,13 @@
 
 <script>
   import Hello from './components/Hello'
+  import Tes from './components/Tes'
 
   export default {
     name: 'app',
     components: {
-      Hello
+      Hello,
+      Tes
     }
   }
 </script>
