@@ -23,8 +23,4 @@
     font-weight: normal;
     color: red;
   }
-
-  a {
-    color: #42b983;
-  }
 </style>
