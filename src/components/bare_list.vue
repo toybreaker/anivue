@@ -18,17 +18,6 @@
 
 <script>
 
-  import Vue from 'Vue'
-
-  // register
-  Vue.component('my-component', {
-    template: '<div>A custom component!</div>'
-  })
-  // create a root instance
-  new Vue({
-    el: '#example'
-  })
-
   Vue.component('todo-item', {
     template: '<li>{{ title }}</li>',
     props: ['title']
@@ -54,12 +43,6 @@
       ]
     }
   }
-
-  import yearlist from '@/assets/json/years.json'
-  // ....
-  yearlist.forEach(x => {
-    console.log(x.year, x.animal, x.element)
-  })
 
 </script>
 

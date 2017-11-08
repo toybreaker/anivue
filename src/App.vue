@@ -2,7 +2,7 @@
   <div id="app">
 
     <router-view></router-view>
-    <years></years>
+    <yearslog></yearslog>
     <chart></chart>
 
   </div>
@@ -10,13 +10,13 @@
 
 <script>
   import Chart from '@/components/Chart'
-  import Years from '@/components/Years'
+  import Yearslog from '@/components/Yearslog'
 
   export default {
     name: 'app',
     components: {
       Chart,
-      Years
+      Yearslog
     }
   }
 </script>
