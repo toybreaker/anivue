@@ -6,21 +6,23 @@
 </template>
 
 <script>
-  import ye from '@/assets/js/years.js'
-  // ....
-  ye.forEach(x => {
-    console.log(x.year, x.animal, x.element)
-  })
+var Vue = require('vue')
+var VueResource = require('vue-resource')
 
-  export default {
-    name: 'Animals'
-  }
+Vue.use(VueResource)
+// GET /someUrl
+this.$http.get('/./assets/json/years.json').then(response => {
+  // get body data
+  this.item = data
+}, response => {
+  console.log(data)
+})
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  > * {
-    font-weight: normal;
-    color: red;
-  }
+> * {
+  font-weight: normal;
+  color: red;
+}
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="yearslog">
     <div class="years_title">Years Animal + infos in console!</div>
-
   </div>
 </template>
 

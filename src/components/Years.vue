@@ -18,21 +18,21 @@
 
 <script>
 
-  import Vue from 'Vue'
+  // import Vue from 'Vue'
+  //
+  // // register
+  // Vue.component('my-component', {
+  //   template: '<div>A custom component!</div>'
+  // })
+  // // create a root instance
+  // new Vue({
+  //   el: '#example'
+  // })
 
-  // register
-  Vue.component('my-component', {
-    template: '<div>A custom component!</div>'
-  })
-  // create a root instance
-  new Vue({
-    el: '#example'
-  })
-
-  Vue.component('todo-item', {
-    template: '<li>{{ title }}</li>',
-    props: ['title']
-  })
+  // Vue.component('todo-item', {
+  //   template: '<li>{{ title }}</li>',
+  //   props: ['title']
+  // })
 
   export default {
     el: '#todo-list-example',

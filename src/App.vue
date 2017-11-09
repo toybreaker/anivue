@@ -2,22 +2,18 @@
   <div id="app">
 
     <router-view></router-view>
-    <yearslog></yearslog>
-    <chart></chart>
+    <!-- <chart></chart> -->
 
   </div>
 </template>
 
 <script>
-  import Chart from '@/components/Chart'
-  import Yearslog from '@/components/Yearslog'
+  // import Chart from '@/components/Chart'
+  // import Yearslog from '@/components/Yearslog'
+  // import Animals from '@/components/Animals'
 
   export default {
-    name: 'app',
-    components: {
-      Chart,
-      Yearslog
-    }
+    name: 'app'
   }
 </script>
 
